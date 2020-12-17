@@ -1,0 +1,10 @@
+{% extends 'base.html'%} {% block styles%} {{ super() }}
+<link rel="stylesheet" href="{{url_for('static',filename='css/index3.css')}}"> {% endblock %} {% block content %}
+<div class="jumbotron" style="margin-top:0;">
+    <h2 class="text-center">WELCOME </h2>
+    <h2 class="text-center">TO OUR CREDENTIAL <i class="fa fa-globe" aria-hidden="true"></i></h2>
+    <p class="text-center">A Credential ID is a unique identifier that Symantec VIP Services provision for a particular device that can be associated with your online accounts.!</p>
+</div>
+
+
+{% endblock%}
